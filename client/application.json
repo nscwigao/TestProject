@@ -4,5 +4,11 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "d5567b07",
   "uiCommonVersion": "5.2.1",
-  "creatorId": "nscwigao"
+  "creatorId": "nscwigao",
+  "id": "testproject",
+  "previewImageURL": "/previews/d5567b07-testproject/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/nscwigao/TestProject",
+  "creatorName": "Wisdom Gao",
+  "sdks": []
 }
