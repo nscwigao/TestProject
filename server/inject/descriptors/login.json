@@ -42,8 +42,24 @@
         "password": {
           "type": "string"
         }
-      }
+      },
+      "selector": ".button[value=\"Login\"]",
+      "control": "action.button"
+    },
+    "IsLogin": {
+      "type": "identifier",
+      "selector": ".button[value=\"Login\"]",
+      "control": "exists"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "IsLogin"
+      ],
+      "screens": [
+        "login"
+      ]
+    }
+  ]
 }
